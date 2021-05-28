@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: #A6F4EE;
+	margin: 0;
+}
+
+.gallery-container{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: 150px;
+	padding:20px;
+	grid-gap: 20px;
+}
+.gallery__img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gallery__item:nth-child(1){
+	grid-row-start: span 2;
+}
+
+.gallery__item:nth-child(2){
+	grid-row-start: span 2;
+}
+
+.gallery__item:nth-child(3){
+	grid-row-start: span 2;
+}
+
+.gallery__item:nth-child(4){
+	grid-row-start: span 4;
+}
+
+.gallery__item:nth-child(5){
+	grid-row-start: span 4;
+}
+
+.gallery__item:nth-child(6){
+	grid-row-start: span 2;
+}
+
+.gallery__item:nth-child(7){
+	grid-row-start: span 3;
+}
+
+.gallery__item:nth-child(8){
+	grid-row-start: span 3;
+}
+
+.gallery__item:nth-child(9){
+	grid-row-start: span 1;
+}
+
+.gallery__item:nth-child(10){
+	grid-row-start: span 2;
+}
+
+.gallery__item:nth-child(11){
+	grid-row-start: span 4;
+}
+
+.gallery__item:nth-child(12){
+	grid-row-start: span 3;
+}
+
+.gallery__item:nth-child(13){
+	grid-row-start: span 2;
+}
+
+.gallery__item:nth-child(14){
+	grid-row-start: span 2;
+}
+
+
+@font-face{
+	font-family: 'Cursiva';
+	src: url("../fonts/Secret Winter.ttf") format('truetype');
+	src: url("../fonts/Secret Winter.ttf")format('opentype');
+}
+
+.fuente1{
+	font-family: 'Raleway', sans-serif;
+}
+
+.fuente2{
+	font-family: 'Cursiva';
+}
+
+#TypoColor{
+	color: #FFFFFF;
+	padding: 25px;
+	margin: 30px;
+}
+
+#TypoColor2{
+	color: #FFFFFF;
+	padding: 15px;
+	margin: 20px;
+}
+
+h1{
+	font-family: 'Cursiva', regular;
+	font-size: clamp(1.3rem, 3vw, 2rem);
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: clamp(1rem, 1.5vw, 2rem);
+}
+
+.bg1{
+	width: 100%;
+	height: 100%;
+	background-image: url( "../img/galeria/Rostro Low Poly.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	float: left;
+	left: 0;
+	top: 0;
+	height: auto;
+	outline-style: none;
+	text-align: center;
+	overflow: hidden;
+}
+
+.bg2{
+	width: 50%;
+	height: auto;
+	padding: 5px;
+	background-image: url( "../img/icon/cliked on/notas.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	float: left;
+	left: 0;
+	top: 0;
+	height: auto;
+	outline-style: none;
+	text-align: center;
+	overflow: hidden;
+}
+
+#colaborations{
+	color: #FFFFFF;
+	padding: 25px;
+	margin: 30px;
+}
